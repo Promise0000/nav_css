@@ -1,0 +1,106 @@
+.button {
+  overflow: hidden;
+  background-color: rgb(27, 26, 26);
+  display: flex;
+}
+
+li {
+  float: left;
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  justify-content: center;
+}
+
+li a {
+  display: flex;
+  color: white;
+  text-align: center;
+  padding: 10px 14px;
+  text-decoration: none;
+  flex-direction: row;
+}
+select {
+  background-color: rgb(27, 26, 26);
+  border: none;
+  color: gray;
+  display: flex;
+  flex-direction: row;
+  padding: 10px 14px;
+}
+
+.list2 {
+  padding: 0;
+}
+
+.form {
+  float: right;
+  padding-left: 38%;
+  margin-top: 20px;
+  justify-content: right ;
+}
+
+.search{
+  padding: 10px;
+  border-radius: 5px;
+  font-size: large;
+}
+
+.submit {
+  padding: 10px;
+  font-size: large;
+  border: 1px solid green;
+  background-color: rgb(27, 26, 26);
+  border-radius: 5px;
+  color: green;
+  justify-content: end;
+  margin-right: 10px;
+
+}
+ button:hover{
+background-color: green;
+color: white;
+}
+
+@media (max-width: 768px) {
+  nav {
+    display: flex;
+  }
+  .form {
+    display: none;
+  }
+  .hidden {
+    visibility: hidden;
+  }
+  .ham1 {
+    width: 35px;
+    height: 5px;
+    background-color: white;
+    margin: 3px;
+    float: right;
+    justify-content: right;
+  }
+  .ham2 {
+    width: 35px;
+    height: 5px;
+    background-color: white;
+    margin: 3px;
+    float: right;
+    justify-content: right;
+}
+.ham3 {
+  width: 35px;
+  height: 5px;
+  background-color: white;
+  margin: 3px;
+  float: right;
+  justify-content: right;
+}
+.hamburger {
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+  justify-content: center;
+}
+
+}
